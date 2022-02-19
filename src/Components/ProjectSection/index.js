@@ -30,7 +30,7 @@ export default function ProjectSection() {
             </section>
 
             <section className={styles.projectWrapper}>
-                <a href="#" className={styles.projectLink}><img src="https://github.com/Antonio-Riccelli/js-roman-numeral-converter/blob/main/public/images/demo4.gif?raw=true" alt="Markdown previewer" className={styles.projectImg}></img></a>
+                <a href="https://github.com/Antonio-Riccelli/js-roman-numeral-converter" className={styles.projectLink}><img src="https://github.com/Antonio-Riccelli/js-roman-numeral-converter/blob/main/public/images/demo4.gif?raw=true" alt="Markdown previewer" className={styles.projectImg}></img></a>
                 <p>Roman Numeral Converter & Quote Generator</p>
                 <p></p>
                 <span className={styles.tags}>#React #TailwindCSS #Node.JS #Express.JS #PostgreSQL </span>
