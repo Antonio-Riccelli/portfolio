@@ -26,6 +26,8 @@
 .bio {
     padding: 10px;
     text-align: justify;
+    font-family: monospace;
+    font-size: 1.2rem;
 }
 
 .parBio {
