@@ -5,6 +5,7 @@ import AboutSection from '../AboutSection';
 import TechStackSection from '../TechStackSection';
 import Footer from '../Footer';
 import ProjectSection from '../ProjectSection';
+import ContactSection from '../ContactSection';
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -15,6 +16,7 @@ function App() {
      <AboutSection />
      <TechStackSection />
      <ProjectSection />
+     <ContactSection />
      <Footer />
     </div>
   );
