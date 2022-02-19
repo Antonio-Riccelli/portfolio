@@ -4,7 +4,7 @@ export default function ProjectSection() {
 
 
     return (
-        <div className={styles.projectSectionWrapper}>
+        <div className={styles.projectSectionWrapper} id="projects">
         <h2 className={styles.sectionTitle}>Projects</h2>
         <section id="project-section" className={styles.projectContainer}>
 

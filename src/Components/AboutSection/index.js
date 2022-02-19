@@ -2,7 +2,7 @@ import styles from "./index.module.css";
 
 export default function AboutSection() {
     return (
-        <section id="about-section" className={styles.aboutSection}>
+        <section  className={styles.aboutSection} id="about">
          <section id="personal-picture" class={styles.picWrapper}>
                 <img src="https://i.ibb.co/P9pP5T9/IMG-20210206-100236115.jpg" alt="profile" className={styles["profile-pic"]}></img>
             </section>

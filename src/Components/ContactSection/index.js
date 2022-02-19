@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 export default function ContactSection() {
 
     return (
-        <section className={styles.contactSectionWrapper}>
+        <section className={styles.contactSectionWrapper} id="contact">
             <h2 className={styles.sectionTitle}>Let's connect!</h2>
             <section className={styles.contactLinks}>
 
