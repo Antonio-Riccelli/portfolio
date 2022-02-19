@@ -7,7 +7,7 @@ export default function TechStackSection() {
 
     return (
         <div class={styles.TechStackSection}>
-        <h2>Technologies</h2>
+        <h2 className={styles.title}>Technologies</h2>
         <section id="tech-stack-container" className={styles.techContainer}>
             <figure className={styles.skill}>
                 <Icon icon="vscode-icons:file-type-html"  alt="HTML logo"  className={styles.logo}/>

@@ -13,6 +13,11 @@
     transform: rotateY(360deg) rotate(360deg);
 }
 
+.title {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 .techContainer {
     display: grid;
     width: 100%;
