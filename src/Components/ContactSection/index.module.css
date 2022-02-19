@@ -23,3 +23,8 @@
     width: 100px;
     height: 50px;
 }
+
+.socialLogo:hover {
+    transition: 2s;
+    transform: rotate(360deg) rotateY(360deg);
+}

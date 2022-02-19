@@ -7,6 +7,11 @@
     height: 100px;
 }
 
+.logo:hover {
+    transition: 2s;
+    transform: rotateY(360deg) rotate(360deg);
+}
+
 .techContainer {
     display: grid;
     width: 100%;
