@@ -1,0 +1,21 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.techContainer {
+    display: grid;
+
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+  .logo {
+      width: 25px;
+      height: 25px;
+  }
+
+  .techContainer {
+      width: 80%;
+      grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,52 @@
+.aboutSection {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+}
+
+/* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+
+.profile-pic {
+    border-radius: 50px;
+    height: 700px;
+    box-shadow: 0px 0px 5px 1px lightslategray;
+    border: none;
+}
+
+/* MOBILE-FIRST */
+
+@media 
+  (min-width: 0) 
+  and (max-device-width: 576px) {
+    .profile-pic {
+        width: 33%;
+        height: 33%;
+        /* padding: 1px; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .aboutSection {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* ANIMATION */
+
+@keyframes waving {
+    from {
+        transform: rotate(50deg);
+    }
+
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
+
+.hand {
+    display: inline-block;
+    animation: waving 1s linear 0s infinite alternate;
+}

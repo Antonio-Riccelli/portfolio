@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+.header {
+    padding: 5px;
+    display: flex;
+}
+
+
+.logo {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+  .header {
+      width: 100vw;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .logo {
+      margin-bottom: 10px;
+  }
+
+  
+}
