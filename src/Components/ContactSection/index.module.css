@@ -22,7 +22,8 @@
 }
 
 .socialLogo {
-    width: 100px;
+    min-width: 50px;
+    max-width: 100px;
     height: 50px;
 }
 

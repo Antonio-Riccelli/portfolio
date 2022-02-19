@@ -1,5 +1,6 @@
 .TechStackSection {
     width: 75%;
+    
 }
 
 .logo {
@@ -18,12 +19,15 @@
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
      column-gap: 5%;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    text-align: center;
 }
 
 .skill {
-    padding: 15px;
+
+    margin-bottom: 15px;
     font-family: monospace;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .skillName {
