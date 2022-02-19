@@ -1,10 +1,17 @@
 .navbar {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    width: 50%;
 }
 
 .list {
     display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
 }
 
 .navlink {
@@ -13,6 +20,7 @@
 
 .navlink:hover {
     color: lightcoral;
+    font-weight: bold;
 }
 
 

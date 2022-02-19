@@ -1,3 +1,7 @@
+.TechStackSection {
+    width: 75%;
+}
+
 .logo {
     width: 100px;
     height: 100px;
@@ -5,7 +9,9 @@
 
 .techContainer {
     display: grid;
-
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5%;
 }
 
 @media (min-width: 0) and (max-width: 576px) {
@@ -15,7 +21,6 @@
   }
 
   .techContainer {
-      width: 80%;
-      grid-template-columns: 1fr 1fr;
+    
   }
 }

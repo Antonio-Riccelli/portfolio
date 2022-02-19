@@ -1,0 +1,31 @@
+.projectSectionWrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sectionTitle {
+    margin-bottom: 50px;
+}
+
+.projectContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.projectImg {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 30px 0.5px;
+}
+
+.projectImg:hover {
+    box-shadow: 10px 5px 5px rgb(77, 71, 71);
+}
+
+.projectWrapper {
+    padding: 20px;
+    
+}

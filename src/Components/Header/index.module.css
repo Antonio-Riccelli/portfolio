@@ -3,8 +3,10 @@
 .header {
     padding: 5px;
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 }
-
 
 .logo {
     font-family: 'Major Mono Display', monospace;
