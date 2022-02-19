@@ -2,6 +2,7 @@
     font-family: 'Roboto Slab', serif;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     max-width: 75%;
     margin-top: 20px;
     justify-content: space-around;
@@ -45,11 +46,12 @@
   (min-width: 0) 
   and (max-device-width: 576px) {
     .profile-pic {
-        width: 33%;
+        width: 75%;
         height: 33%;
         /* padding: 1px; */
         margin-top: 10px;
         margin-bottom: 10px;
+        padding: 0;
     }
 
     .aboutSection {
@@ -59,6 +61,28 @@
         align-items: center;
     }
 
+    .descriptionWrapper {
+        width: 100%;
+    }
+
+    .bio {
+        width: 100%;
+    }
+
+    .picWrapper {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+   
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .descriptionWrapper, .bio, .parBio, .aboutSection {
+        width: 100%;
+    }
+
+    
 }
 
 /* ANIMATION */

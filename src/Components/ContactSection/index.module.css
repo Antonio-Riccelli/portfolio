@@ -1,6 +1,7 @@
 .contactSectionWrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .sectionTitle {
@@ -13,6 +14,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .socialLink {

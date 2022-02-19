@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     padding: 40px 20px 40px 20px;
@@ -13,4 +14,11 @@
 
 .copyright {
     font-family: 'Roboto Slab', serif;
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+    .footer {
+     width: 75%;
+
+    }
 }
