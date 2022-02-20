@@ -13,7 +13,7 @@ export default function AboutSection() {
                 <p className={styles.parBio}>Made in Italy, based in the UK.</p>
                 <p className={styles.parBio}>I've fallen in love with programming as it's one of the greatest expressions of creativity applied to logic. An intriguing fusion of Apollonian and Dionysian.</p>
                 <p className={styles.parBio}>In my spare time, I'm a voracious reader, avid gym-goer, and musician.</p>
-                <p className={styles.parBio}>Currently training at the <a href="https://www.schoolofcode.co.uk/">School of Chode</a>.</p>
+                <p className={styles.parBio}>Currently training at the <a href="https://www.schoolofcode.co.uk/">School of Code</a>.</p>
                
             </section>
         </section>
