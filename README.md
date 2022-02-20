@@ -15,4 +15,4 @@ A simple portfolio page to build my online presence and showcase some of my proj
 
 ### Preview
 
-![Preview](https://i.ibb.co/fnv44vw/1.gif)
+![Demo](./public/1.gif)
