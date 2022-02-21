@@ -8,6 +8,10 @@
     justify-content: space-around;
 }
 
+.school-of-code:hover {
+    color: lightcoral;
+}
+
 .picWrapper {
     display: flex;
     flex-direction: column;
