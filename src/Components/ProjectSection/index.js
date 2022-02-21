@@ -26,7 +26,7 @@ export default function ProjectSection() {
                 <a href="https://antonio-riccelli.github.io/pixel_art_maker/" className={styles.projectLink}><img src="https://raw.githubusercontent.com/Antonio-Riccelli/pixel_art_maker/main/img/demo.gif" alt="Markdown previewer" className={styles.projectImg}></img></a>
                 <p>Pixel Art Maker</p>
                 <p></p>
-                <span className={styles.tags}>#React #CSS </span>
+                <span className={styles.tags}>#Javascript #CSS #HTML </span>
             </section>
 
             <section className={styles.projectWrapper}>
