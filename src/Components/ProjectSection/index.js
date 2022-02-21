@@ -16,7 +16,7 @@ export default function ProjectSection() {
             </section>
 
             <section className={styles.projectWrapper}>
-                <a href="https://react-calculatrr.netlify.app/" className={styles.projectLink}><img src="https://media-exp1.licdn.com/dms/image/sync/C4D27AQF0paLF1XnN6Q/articleshare-shrink_1280_800/0/1645289611947?e=1645380000&v=beta&t=Hw6Qen3f1sbURpLNBVDRG8TCdPg41ZB0SlJaiH5XGPs" alt="Markdown previewer" className={styles.projectImg}></img></a>
+                <a href="https://react-calculatrr.netlify.app/" className={styles.projectLink}><img src="https://i.ibb.co/k03Z338/2.gif" alt="React Calculator" className={styles.projectImg}></img></a>
                 <p>Calculator</p>
                 <p></p>
                 <span className={styles.tags}>#React #CSS </span>
