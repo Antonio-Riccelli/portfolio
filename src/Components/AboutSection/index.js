@@ -7,8 +7,8 @@ export default function AboutSection() {
                 <img src="https://i.ibb.co/P9pP5T9/IMG-20210206-100236115.jpg" alt="profile" className={styles["profile-pic"]}></img>
             </section>
         <section className={styles.descriptionWrapper}>
-        <h2>Ciao!<span className={styles.hand}>👋🏻</span> I'm Antonio.</h2>
-        <h3>Full Stack Developer</h3>
+        <h2 className={styles.largerh2}>Ciao!<span className={styles.hand}>👋🏻</span> I'm Antonio.</h2>
+        <h3 className={styles.larger}>Full Stack Developer</h3>
         <section id="bio" className={styles.bio}>
                 <p className={styles.parBio}>Made in Italy, based in the UK.</p>
                 <p className={styles.parBio}>I've fallen in love with programming as it's one of the greatest expressions of creativity applied to logic. An intriguing fusion of Apollonian and Dionysian.</p>

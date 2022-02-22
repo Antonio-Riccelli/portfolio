@@ -46,6 +46,14 @@
     border: none;
 }
 
+.larger {
+    font-size: 2rem;
+}
+
+.largerh2 {
+    font-size: 3rem;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 0) 
