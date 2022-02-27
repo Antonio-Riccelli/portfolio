@@ -8,8 +8,7 @@
 
 .projectLink {
     width: 100%;
-    flex: 50%;
-    
+    flex: 50%;  
 }
 
 .sectionTitle {
@@ -25,9 +24,10 @@
 }
 
 .projectImg {
-    min-width: 300px;
+    min-width: 496px;
     max-width: 500px;
     width: 100%;
+    min-height: 347px;
     height: 100%;
     border-radius: 20px;
     border: 2px solid white;
