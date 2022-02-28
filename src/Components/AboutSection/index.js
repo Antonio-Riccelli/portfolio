@@ -8,7 +8,7 @@ export default function AboutSection() {
             </section>
         <section className={styles.descriptionWrapper}>
         <h2 className={styles.largerh2}>Ciao!<span className={styles.hand}>👋🏻</span> I'm Antonio.</h2>
-        <h3 className={styles.larger}>Full Stack Developer</h3>
+        <h3 className={styles.larger}>Full Stack Developer <span className={styles.inBrackets}>(with a penchant for the Backend)</span></h3>
         <section id="bio" className={styles.bio}>
                 <p className={styles.parBio}>Made in Italy, based in the UK.</p>
                 <p className={styles.parBio}>I've fallen in love with programming as it's one of the greatest expressions of creativity applied to logic. An intriguing fusion of Apollonian and Dionysian.</p>

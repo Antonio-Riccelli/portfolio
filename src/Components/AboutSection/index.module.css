@@ -8,6 +8,11 @@
     justify-content: space-around;
 }
 
+.inBrackets {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
 .school-of-code:hover {
     color: lightcoral;
 }
@@ -28,6 +33,7 @@
 }
 
 .bio {
+    margin-top: 20px;
     padding: 10px;
     text-align: justify;
     font-family: monospace;
@@ -52,6 +58,7 @@
 
 .largerh2 {
     font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 /* MEDIA QUERIES */
