@@ -16,6 +16,10 @@ export default function AboutSection() {
                 <p className={styles.parBio}>Currently training at the <a href="https://www.schoolofcode.co.uk/" className={styles["school-of-code"]}>School of Code</a>.</p>
                
             </section>
+
+            <section id="resumeWrapper" className={styles.resumeWrapper}>
+                <a href="https://drive.google.com/file/d/1Y_NYBAhwsxXYguoX4HZSlaX2wumOt7ye/view?usp=sharing" className={styles.cvButton} download target="_blank" rel="noreferrer">View my CV</a>
+            </section>
         </section>
         
            
