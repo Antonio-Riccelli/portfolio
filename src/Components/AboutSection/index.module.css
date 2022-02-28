@@ -11,6 +11,7 @@
 .inBrackets {
     font-size: 1.2rem;
     font-style: italic;
+
 }
 
 .school-of-code:hover {
@@ -70,6 +71,8 @@
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
 
 .cvButton:hover {
