@@ -61,6 +61,25 @@
     margin-bottom: 20px;
 }
 
+.resumeWrapper {
+    margin: 20px;
+}
+
+.cvButton {
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.cvButton:hover {
+    outline: 2px solid lightcoral;
+}
+
+.cvButton:active {
+    background-color: blue;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 0) 
@@ -95,6 +114,11 @@
         display: flex;
         flex-direction: row;
     }
+
+    .inBrackets {
+        display: block;
+        margin-top: 15px;
+    }
    
 }
 
@@ -102,7 +126,10 @@
     .descriptionWrapper, .bio, .parBio, .aboutSection {
         width: 100%;
     }
-
+    .inBrackets {
+        display: block;
+        margin-top: 15px;
+    }
     
 }
 
