@@ -1,5 +1,6 @@
 import styles from "./index.module.css";
 
+
 export default function ProjectSection() {
 
 
@@ -43,8 +44,17 @@ export default function ProjectSection() {
                 <span className={styles.tags}>#React #CSS</span>
             </section>
 
+                <section className={styles.projectWrapper}>
+                <a href="https://fcc-exercise-trackr.herokuapp.com/" className={styles.projectLink}><img src="https://raw.githubusercontent.com/Antonio-Riccelli/fcc-exercise-tracker/main/demo.gif" alt="Exercise Tracker" className={styles.projectImg}></img></a>
+                <p>Exercise Tracker</p>
+                <span className={styles.tags}>#MongoDB #Mongoose #NodeJS #CSS</span>
+            </section>
+
 
         </section>
         </div>
+
+
+
     )
 }
