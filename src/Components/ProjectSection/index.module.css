@@ -39,9 +39,31 @@
     box-shadow: 10px 5px 5px rgb(77, 71, 71);
 }
 
+.projectTitle {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
 .projectWrapper {
     padding: 30px;
+    margin: 20px;
 }
+
+.tags {
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    color: #2477ad;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-break: strict;
+    width: 100%;
+    margin: 5px;
+}
+
+/* MEDIA QUERIES */
 
 @media (min-width: 0) and (max-width: 576px) {
     .projectContainer {
