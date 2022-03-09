@@ -49,6 +49,12 @@
 .projectWrapper {
     padding: 30px;
     margin: 20px;
+   
+}
+
+.projectWrapper:hover {
+    position: relative;
+   
 }
 
 .tags {
@@ -63,6 +69,31 @@
     margin: 5px;
 }
 
+.projectDescriptionTooltip {
+    display: none;
+    opacity: 0;
+    width: 75%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.projectWrapper:hover .projectDescriptionTooltip {
+    display: unset;
+    background-color: #959595;
+    background-color: #00008B;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    animation-name: graduallyAppear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-out;
+ 
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 0) and (max-width: 576px) {
@@ -70,4 +101,11 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
     }
+}
+
+/* ANIMATIONS */
+
+@keyframes graduallyAppear {
+    from {opacity:0;}
+    to {opacity: 1;}
 }
