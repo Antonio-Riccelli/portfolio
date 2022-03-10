@@ -8,7 +8,7 @@
 
 .projectLink {
     width: 100%;
-    flex: 50%;  
+    flex: 50%;
 }
 
 .sectionTitle {
@@ -32,7 +32,7 @@
     border-radius: 20px;
     border: 2px solid white;
     box-shadow: 5px 5px 30px 0.5px;
- 
+
 }
 
 .projectImg:hover {
@@ -49,12 +49,12 @@
 .projectWrapper {
     padding: 30px;
     margin: 20px;
-   
+
 }
 
 .projectWrapper:hover {
     position: relative;
-   
+
 }
 
 .tags {
@@ -91,21 +91,45 @@
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     transition-timing-function: ease-out;
- 
 }
 
 /* MEDIA QUERIES */
 
 @media (min-width: 0) and (max-width: 576px) {
-    .projectContainer {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
+    .projectSectionWrapper {
+        width: 100%;
+    }
+
+    .projectContainer {
+        grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+    }
+
+    .projectImg {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .projectDescriptionTooltip {
+        display: none;
+        opacity: 0;
+        width: 75%;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1rem;
+        padding: 15px;
+        border-radius: 20px;
+        text-align: left;
     }
 }
 
 /* ANIMATIONS */
 
 @keyframes graduallyAppear {
-    from {opacity:0;}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
