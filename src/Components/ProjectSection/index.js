@@ -18,7 +18,7 @@ export default function ProjectSection() {
                 <img src="https://raw.githubusercontent.com/Antonio-Riccelli/react-markdown-previewer/main/demo.gif" alt="Markdown previewer" className={styles.projectImg}></img>
                 </a>
                 <p className={styles.projectTitle}>Markdown Previewer</p>
-                <span className={styles.tags}>#React #CSS #Marked #DOMPurify</span>
+                <p className={styles.tags}>#React #CSS #Marked #DOMPurify</p>
             </section>
 
             <section className={styles.projectWrapper}>
@@ -28,7 +28,7 @@ export default function ProjectSection() {
                 </span>
                 <img src="https://i.ibb.co/jGVtVVM/2.gif" alt="React Calculator" className={styles.projectImg}></img></a>
                 <p className={styles.projectTitle}>Calculator</p>
-                <span className={styles.tags}>#React #CSS </span>
+                <p className={styles.tags}>#React #CSS </p>
             </section>
 
             <section className={styles.projectWrapper}>
@@ -38,7 +38,7 @@ export default function ProjectSection() {
                 </span>
                 <img src="https://raw.githubusercontent.com/Antonio-Riccelli/pixel_art_maker/main/img/demo.gif" alt="Pixel Art Maker" className={styles.projectImg}></img></a>
                 <p className={styles.projectTitle}>Pixel Art Maker</p>
-                <span className={styles.tags}>#JavaScript #CSS #HTML </span>
+                <p className={styles.tags}>#JavaScript #CSS #HTML </p>
             </section>
 
             <section className={styles.projectWrapper}>
@@ -48,7 +48,7 @@ export default function ProjectSection() {
                 </span>
                 <img src="https://github.com/Antonio-Riccelli/js-roman-numeral-converter/blob/main/public/images/demo4.gif?raw=true" alt="Roman Numeral Converter and Quote Generator" className={styles.projectImg}></img></a>
                 <p className={styles.projectTitle}>Roman Numeral Converter & Quote Generator</p>
-                <span className={styles.tags}>#JavaScript #Bootstrap #Node.JS #Express.JS #PostgreSQL </span>
+                <p className={styles.tags}>#JavaScript #Bootstrap #Node.JS #Express.JS #PostgreSQL </p>
             </section>
 
             <section className={styles.projectWrapper}>
@@ -59,7 +59,7 @@ export default function ProjectSection() {
                 </span>
                 <img src="https://raw.githubusercontent.com/Antonio-Riccelli/React-25-5-clock/main/demo.gif" alt="25 + 5 Clock" className={styles.projectImg}></img></a>
                 <p className={styles.projectTitle}>25 + 5 Clock</p>
-                <span className={styles.tags}>#React #CSS</span>
+                <p className={styles.tags}>#React #CSS</p>
             </section>
 
                 <section className={styles.projectWrapper}>
@@ -70,7 +70,7 @@ export default function ProjectSection() {
                 </span>
                 <img src="https://raw.githubusercontent.com/Antonio-Riccelli/fcc-exercise-tracker/main/demo.gif" alt="Exercise Tracker" className={styles.projectImg}></img></a>
                 <p className={styles.projectTitle}>Exercise Tracker</p>
-                <span className={styles.tags}>#MongoDB #Mongoose #NodeJS #CSS</span>
+                <p className={styles.tags}>#MongoDB #Mongoose #NodeJS #CSS</p>
             </section>
 
 
