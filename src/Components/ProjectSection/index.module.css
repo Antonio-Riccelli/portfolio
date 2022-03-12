@@ -58,7 +58,7 @@
 }
 
 .tags {
-    display: inline-block;
+    display: block;
     font-family: 'Roboto Slab', serif;
     color: #2477ad;
     font-style: italic;
@@ -99,6 +99,7 @@
 
     .projectSectionWrapper {
         width: 100%;
+        /* margin: 0; */
     }
 
     .projectContainer {
@@ -112,6 +113,12 @@
 
     .projectDescriptionTooltip {
         font-size: 1rem;
+    }
+
+    .projectWrapper {
+        margin: 0;
+        padding: 15px;
+        margin-bottom: 70px;
     }
 }
 
