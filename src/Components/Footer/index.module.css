@@ -13,12 +13,18 @@
 }
 
 .copyright {
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
+    font-size: 2rem;
 }
 
 @media (min-width: 0) and (max-width: 576px) {
     .footer {
      width: 75%;
+    justify-content: center;
+    }
 
+    .copyright {
+        font-size: 2.2rem;
     }
 }
+
