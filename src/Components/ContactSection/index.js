@@ -18,7 +18,12 @@ export default function ContactSection() {
 
             <a href="https://soundcloud.com/antonioriccelli" className={styles.socialLink} id="github" title="Soundcloud"><Icon icon="logos:soundcloud" className={styles.socialLogo} alt="Soundcloud"/></a>
 
+            <a href="https://www.gog.com/u/AntonioRiccelli" className={styles.socialLink} id="gog" title="GOG"><Icon icon="cib:gog-com" className={styles.socialLogo} alt="GOG"/></a>
+            <a href="https://steamcommunity.com/id/antonioriccelli" className={styles.socialLink} id="Steam" title="Steam"><Icon icon="bi:steam" className={styles.socialLogo} alt="Steam"/></a>
+
             </section>
         </section>
     )
 }
+
+// https://www.gog.com/u/AntonioRiccelli
