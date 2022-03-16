@@ -12,9 +12,9 @@ export default function AboutSection() {
         <h3 className={styles.larger}>Full Stack Developer <span className={styles.inBrackets}>(with a penchant for the Backend)</span></h3>
         <section id="bio" className={styles.bio}>
                 <p className={styles.parBio}>Made in Italy <Icon icon="twemoji:flag-italy" /> based in the UK <Icon icon="flagpack:gb-ukm" /></p>
-                <p className={styles.parBio}>I've fallen in love with programming as it's one of the greatest expressions of creativity applied to logic. An intriguing fusion of Apollonian and Dionysian.</p>
+                <p className={styles.parBio}><a href="https://www.schoolofcode.co.uk/" className={styles["school-of-code"]}>School of Code</a> graduate. I've fallen in love with programming as it's one of the greatest expressions of creativity applied to logic. An intriguing fusion of Apollonian and Dionysian.</p>
                 <p className={styles.parBio}>In my spare time, I'm a voracious reader, avid gym-goer, and musician.</p>
-                <p className={styles.parBio}>Currently training at the <a href="https://www.schoolofcode.co.uk/" className={styles["school-of-code"]}>School of Code</a>. I'm becoming more and more interested in Backend development and DevOps.</p>
+                <p className={styles.parBio}>As of late, my interests have been: Backend development, DevOps, Blockchain and Web3.</p>
                
             </section>
 
