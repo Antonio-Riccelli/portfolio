@@ -13,6 +13,7 @@
 
 .sectionTitle {
     margin-bottom: 50px;
+    font-size: 3rem;
 }
 
 .projectContainer {
@@ -32,7 +33,6 @@
     border-radius: 20px;
     border: 2px solid white;
     box-shadow: 5px 5px 30px 0.5px;
-
 }
 
 .projectImg:hover {
@@ -40,33 +40,32 @@
 }
 
 .projectTitle {
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 5px;
+    letter-spacing: 2px;
 }
 
 .projectWrapper {
     padding: 30px;
     margin: 20px;
-
 }
 
 .projectWrapper:hover {
     position: relative;
-
 }
 
 .tags {
     display: block;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
     color: #2477ad;
     font-style: italic;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     line-break: strict;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0px;
 }
 
 .projectDescriptionTooltip {
@@ -118,7 +117,33 @@
     .projectWrapper {
         margin: 0;
         padding: 15px;
-        margin-bottom: 70px;
+        margin-bottom: 100px;
+    }
+
+    .tags {
+        font-size: 1.3rem;
+        font-weight: bold;
+        line-break: strict;
+        width: 100%;
+        margin: 5px 0px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .projectSectionWrapper {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
     }
 }
 

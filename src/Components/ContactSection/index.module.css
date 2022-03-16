@@ -7,6 +7,7 @@
 .sectionTitle {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 3rem;
 }
 
 .contactLinks {
@@ -18,13 +19,13 @@
 }
 
 .socialLink {
-    padding: 15px;
+    padding: 25px;
 }
 
 .socialLogo {
-    min-width: 50px;
+    min-width: 70px;
     max-width: 100px;
-    height: 50px;
+    height: 70px;
 }
 
 .socialLogo:hover {
