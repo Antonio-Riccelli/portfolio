@@ -6,6 +6,7 @@ import TechStackSection from '../TechStackSection';
 import Footer from '../Footer';
 import ProjectSection from '../ProjectSection';
 import ContactSection from '../ContactSection';
+import AboutDropDowns from '../AboutDropdown';
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
      <Header />
      <AboutSection />
+     <AboutDropDowns />
      <TechStackSection />
      <ProjectSection />
      <ContactSection />

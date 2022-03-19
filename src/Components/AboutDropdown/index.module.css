@@ -1,0 +1,32 @@
+.dropdownContainer {
+    font-size: 1.8rem;
+    cursor: pointer;
+    width: 75%;
+    outline: 2px solid white;
+    padding: 20px;  
+    text-align: center;
+}
+
+.dropdownTop {
+    width: 100%;
+    
+}
+
+.dropdown {
+    width: 75%;
+    text-align: left;
+}
+
+.top5container {
+    letter-spacing: 0.3rem;
+}
+
+.summary {
+    /* font-weight: bold; */
+   
+}
+
+.sublist {
+    width: 50%;
+  
+}
