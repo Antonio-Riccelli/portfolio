@@ -6,6 +6,7 @@ export default function AboutSection() {
         <section  className={styles.aboutSection} id="about">
          <section id="personal-picture" class={styles.picWrapper}>
                 <img src="https://i.ibb.co/P9pP5T9/IMG-20210206-100236115.jpg" alt="profile" className={styles["profile-pic"]}></img>
+             
             </section>
         <section className={styles.descriptionWrapper}>
         <h2 className={styles.largerh2}>Ciao!<span className={styles.hand}>👋🏻</span> I'm Antonio.</h2>
