@@ -9,6 +9,42 @@ export default function ProjectSection() {
         <h2 className={styles.sectionTitle}>Projects</h2>
         <section id="project-section" className={styles.projectContainer}>
 
+        
+        <section className={styles.projectWrapper}>
+                <a href="https://fcc-exercise-trackr.herokuapp.com/" className={styles.projectLink}>
+                <span className={styles.projectDescriptionTooltip}>
+                My first experiment in learning MongoDB and Mongoose. This is allows you to create a new user in the database (upon which the new ID will be returned), input exercises and retrieve an exercise log.<br/>
+                Its Frontend is currently made with plain HTML and JavaScript, but I'm working on rewriting it in React.
+                </span>
+                <img src="https://raw.githubusercontent.com/Antonio-Riccelli/fcc-exercise-tracker/main/demo.gif" alt="Exercise Tracker" className={styles.projectImg}></img></a>
+                <p className={styles.projectTitle}>Exercise Tracker</p>
+                <p className={styles.tags}>#MongoDB #Mongoose #NodeJS #CSS</p>
+            </section>
+
+            <section className={styles.projectWrapper}>
+                <a href="https://github.com/Antonio-Riccelli/js-roman-numeral-converter" className={styles.projectLink}>
+                <span className={styles.projectDescriptionTooltip}>
+                My first full stack project. It allows the user to convert an Arabic numeral to a Roman one, whilst quotes by Roman philosophers are being displayed. <br/>The quotes are stored in a PostgreSQL database and can also be retrieved based on ID or author's name. 
+                </span>
+                <img src="https://github.com/Antonio-Riccelli/js-roman-numeral-converter/blob/main/public/images/demo4.gif?raw=true" alt="Roman Numeral Converter and Quote Generator" className={styles.projectImg}></img></a>
+                <p className={styles.projectTitle}>Roman Numeral Converter & Quote Generator</p>
+                <p className={styles.tags}>#JavaScript #Bootstrap #Node.JS #Express.JS #PostgreSQL </p>
+            </section>
+
+
+
+            <section className={styles.projectWrapper}>
+                <a href="https://fight-for-apollo.netlify.app/" className={styles.projectLink}>
+                <span className={styles.projectDescriptionTooltip}>
+                My personal twist of the classic Tic Tac Toe (or Noughts & Crosses) game.<br/>
+                Based on the Sylvester Stallone and the Rocky IV movie, because we all love some 80's cheesiness. 
+                </span>
+                <img src="https://raw.githubusercontent.com/Antonio-Riccelli/fight-for-apollo-ticTacToe/main/demo.gif" alt="Fight for Apollo" className={styles.projectImg}></img></a>
+                <p className={styles.projectTitle}>Fight for Apollo (Tic Tac Toe)</p>
+                <p className={styles.tags}>#React #CSS #Figma</p>
+            </section>
+
+            
             <section className={styles.projectWrapper}>
                 <a href="https://markdown-previewer-reactjs-fcc.netlify.app/" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
@@ -41,15 +77,8 @@ export default function ProjectSection() {
                 <p className={styles.tags}>#JavaScript #CSS #HTML </p>
             </section>
 
-            <section className={styles.projectWrapper}>
-                <a href="https://github.com/Antonio-Riccelli/js-roman-numeral-converter" className={styles.projectLink}>
-                <span className={styles.projectDescriptionTooltip}>
-                My first full stack project. It allows the user to convert an Arabic numeral to a Roman one, whilst quotes by Roman philosophers are being displayed. <br/>The quotes are stored in a PostgreSQL database and can also be retrieved based on ID or author's name. 
-                </span>
-                <img src="https://github.com/Antonio-Riccelli/js-roman-numeral-converter/blob/main/public/images/demo4.gif?raw=true" alt="Roman Numeral Converter and Quote Generator" className={styles.projectImg}></img></a>
-                <p className={styles.projectTitle}>Roman Numeral Converter & Quote Generator</p>
-                <p className={styles.tags}>#JavaScript #Bootstrap #Node.JS #Express.JS #PostgreSQL </p>
-            </section>
+    
+         
 
             <section className={styles.projectWrapper}>
                 <a href="https://25-5-reactclock.netlify.app/" className={styles.projectLink}>
@@ -62,16 +91,6 @@ export default function ProjectSection() {
                 <p className={styles.tags}>#React #CSS</p>
             </section>
 
-                <section className={styles.projectWrapper}>
-                <a href="https://fcc-exercise-trackr.herokuapp.com/" className={styles.projectLink}>
-                <span className={styles.projectDescriptionTooltip}>
-                My first experiment in learning MongoDB and Mongoose. This is allows you to create a new user in the database (upon which the new ID will be returned), input exercises and retrieve an exercise log.<br/>
-                Its Frontend is currently made with plain HTML and JavaScript, but I'm working on rewriting it in React.
-                </span>
-                <img src="https://raw.githubusercontent.com/Antonio-Riccelli/fcc-exercise-tracker/main/demo.gif" alt="Exercise Tracker" className={styles.projectImg}></img></a>
-                <p className={styles.projectTitle}>Exercise Tracker</p>
-                <p className={styles.tags}>#MongoDB #Mongoose #NodeJS #CSS</p>
-            </section>
 
 
         </section>
