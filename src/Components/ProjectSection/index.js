@@ -11,7 +11,7 @@ export default function ProjectSection() {
 
         
         <section className={styles.projectWrapper}>
-                <a href="https://fcc-exercise-trackr.herokuapp.com/" className={styles.projectLink}>
+                <a href="https://fcc-exercise-trackr.herokuapp.com/" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
                 My first experiment in learning MongoDB and Mongoose. This is allows you to create a new user in the database (upon which the new ID will be returned), input exercises and retrieve an exercise log.<br/>
                 Its Frontend is currently made with plain HTML and JavaScript, but I'm working on rewriting it in React.
@@ -22,7 +22,7 @@ export default function ProjectSection() {
             </section>
 
             <section className={styles.projectWrapper}>
-                <a href="https://github.com/Antonio-Riccelli/js-roman-numeral-converter" className={styles.projectLink}>
+                <a href="https://github.com/Antonio-Riccelli/js-roman-numeral-converter" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
                 My first full stack project. It allows the user to convert an Arabic numeral to a Roman one, whilst quotes by Roman philosophers are being displayed. <br/>The quotes are stored in a PostgreSQL database and can also be retrieved based on ID or author's name. 
                 </span>
@@ -34,7 +34,7 @@ export default function ProjectSection() {
 
 
             <section className={styles.projectWrapper}>
-                <a href="https://fight-for-apollo.netlify.app/" className={styles.projectLink}>
+                <a href="https://fight-for-apollo.netlify.app/" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
                 My personal twist of the classic Tic Tac Toe (or Noughts & Crosses) game.<br/>
                 Based on the Sylvester Stallone and the Rocky IV movie, because we all love some 80's cheesiness. 
@@ -46,7 +46,7 @@ export default function ProjectSection() {
 
             
             <section className={styles.projectWrapper}>
-                <a href="https://markdown-previewer-reactjs-fcc.netlify.app/" className={styles.projectLink}>
+                <a href="https://markdown-previewer-reactjs-fcc.netlify.app/" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
                 This previewer allows the user to input text using markdown syntax and see it rendered in real time. 
                 It was created using React and styled with CSS. Additional packages/libraries were Marked, to parse the markdown syntax, and DOMpurify, to protect the HTML from injections of harmful code.
@@ -58,7 +58,7 @@ export default function ProjectSection() {
             </section>
 
             <section className={styles.projectWrapper}>
-                <a href="https://react-calculatrr.netlify.app/" className={styles.projectLink}>
+                <a href="https://react-calculatrr.netlify.app/" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
                 A classic calculator. A staple in every developer's portfolio. Built with React (and some blood, sweat and tears) and styled with CSS. 
                 </span>
@@ -68,7 +68,7 @@ export default function ProjectSection() {
             </section>
 
             <section className={styles.projectWrapper}>
-                <a href="https://antonio-riccelli.github.io/pixel_art_maker/" className={styles.projectLink}>
+                <a href="https://antonio-riccelli.github.io/pixel_art_maker/" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
                 One of my first exercises in modifying the DOM. Built with standard HTML, CSS and JavaScript. <br/>User can pick width and height to generate a board, which can be "painted" using the mouse cursor. <br/>The board is an HTML table created with a For loop. 
                 </span>
