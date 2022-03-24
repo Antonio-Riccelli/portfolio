@@ -11,12 +11,12 @@ export default function ProjectSection() {
 
         
         <section className={styles.projectWrapper}>
-                <a href="https://fcc-exercise-trackr.herokuapp.com/" target="_blank" rel="noreferrer" className={styles.projectLink}>
+                <a href="https://exercisetrackermern.netlify.app/" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 <span className={styles.projectDescriptionTooltip}>
                 My first experiment in learning MongoDB and Mongoose. This is allows you to create a new user in the database (upon which the new ID will be returned), input exercises and retrieve an exercise log.<br/>
                 Its Frontend is currently made with plain HTML and JavaScript, but I'm working on rewriting it in React.
                 </span>
-                <img src="https://raw.githubusercontent.com/Antonio-Riccelli/fcc-exercise-tracker/main/demo.gif" alt="Exercise Tracker" className={styles.projectImg}></img></a>
+                <img src="https://raw.githubusercontent.com/Antonio-Riccelli/mern-exercise-tracker-frontend/main/demo.gif" alt="Exercise Tracker" className={styles.projectImg}></img></a>
                 <p className={styles.projectTitle}>Exercise Tracker</p>
                 <p className={styles.tags}>#MongoDB #Mongoose #NodeJS #CSS</p>
             </section>
