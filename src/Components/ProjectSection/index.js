@@ -77,22 +77,6 @@ export default function ProjectSection() {
                 <p className={styles.tags}>#JavaScript #CSS #HTML </p>
             </section>
 
-    
-         
-
-            <section className={styles.projectWrapper}>
-                <a href="https://25-5-reactclock.netlify.app/" className={styles.projectLink}>
-                <span className={styles.projectDescriptionTooltip}>
-                Another sort of programmer portfolio's staple: a Pomodoro Clock built using React and styled with CSS.<br/>
-                It allows the user to select the length of their session and break time, at the end of which an alarm is played.
-                </span>
-                <img src="https://raw.githubusercontent.com/Antonio-Riccelli/React-25-5-clock/main/demo.gif" alt="25 + 5 Clock" className={styles.projectImg}></img></a>
-                <p className={styles.projectTitle}>25 + 5 Clock</p>
-                <p className={styles.tags}>#React #CSS</p>
-            </section>
-
-
-
         </section>
         </div>
 
