@@ -14,6 +14,10 @@ export default function ContactSection() {
 
             <a href="https://github.com/Antonio-Riccelli" className={styles.socialLink} id="github" title="Github"><Icon icon="fontisto:github" className={styles.socialLogo} alt="Github"/></a>
 
+   
+            <a href="https://leetcode.com/AntonioRiccelli/" className={styles.socialLink} id="leetcode" title="LeetCode"><Icon icon="cib:leetcode" className={styles.socialLogo} alt="LeetCode"/></a>
+
+
             <a href="https://hashnode.com/@AntonioRiccelli" className={styles.socialLink} id="github" title="Hashnode"><Icon icon="logos:hashnode-icon" className={styles.socialLogo} alt="Hashnode"/></a>
 
             <a href="https://soundcloud.com/antonioriccelli" className={styles.socialLink} id="github" title="Soundcloud"><Icon icon="logos:soundcloud" className={styles.socialLogo} alt="Soundcloud"/></a>
