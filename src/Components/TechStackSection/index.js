@@ -24,6 +24,8 @@ export default function TechStackSection() {
             <figcaption class={styles.skillName}>GIT</figcaption>
             </figure>
 
+        
+
             <figure className={styles.skill}>
             <Icon icon="vscode-icons:file-type-js-official"  alt="JS logo"  className={styles.logo}/>
                 <figcaption class={styles.skillName}>JavaScript</figcaption>
