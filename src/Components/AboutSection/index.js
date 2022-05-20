@@ -20,7 +20,7 @@ export default function AboutSection() {
             </section>
 
             <section id="resumeWrapper" className={styles.resumeWrapper}>
-                <a href="https://drive.google.com/file/d/1Y_NYBAhwsxXYguoX4HZSlaX2wumOt7ye/view?usp=sharing" className={styles.cvButton} download target="_blank" rel="noreferrer">View my CV</a>
+                <a href="https://drive.google.com/file/d/1AuSG6P-EbbscG2046v3AU4D6AqX__EoN/view?usp=sharing" className={styles.cvButton} download target="_blank" rel="noreferrer">View my CV</a>
             </section>
         </section>
         
